@@ -21,7 +21,7 @@ elif software_option == "watch":
 
         id = str(input("IMDB Movie ID: "))
 
-        vidsrc_api = f"https://vidsrc.dev/embed/movie/tt{id}"
+        vidsrc_api = f"https://vidsrc.to/embed/movie/tt{id}"
 
         webbrowser.open_new_tab(vidsrc_api)
 
@@ -31,6 +31,6 @@ elif software_option == "watch":
         season = str(input("Movie Season? "))
         episode = str(input("Movie Episode? "))
 
-        vidsrc_api = f"https://vidbinge.dev/embed/tv/tt{id}/{season}/{episode}"
+        vidsrc_api = f"https://vidsrc.to/embed/tv/tt{id}/{season}/{episode}"
 
         webbrowser.open_new_tab(vidsrc_api)
