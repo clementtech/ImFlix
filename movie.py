@@ -21,19 +21,27 @@ try:
     # Search the movie that the user provided with iMDb
     # Return the first result only
     search_result = movie.search_movie(search)[0]
-    
-    # Retrieve the movie id from iMDB
-    movie_id = search_result.movieID
 
-    # Build the VidSrc domain with the movie id retrieved with iMDB
-    vidsrc_api = f"https://vidsrc.to/embed/movie/tt{movie_id}"
-
-    # Print the Movie name that the user is going to watch as a confirmation?
-    # Tells the user to enjoy their movie as well :)
-    print(f"Opening {search_result} in your default browser. Enjoy your movie!")
+    print(f"Playing: {search_result}")
     
-    # Launch the URL built earlier in the user default browser
-    webbrowser.open_new_tab(vidsrc_api)
+    confirm = str(input("Do you want to proceed? [Y/N] ")).capitalize()
+
+    if confirm == "Y":
+        # Retrieve the movie id from iMDB
+        movie_id = search_result.movieID
+
+        # Build the VidSrc domain with the movie id retrieved with iMDB
+        vidsrc_api = f"https://vidsrc.to/embed/movie/tt{movie_id}"
+
+        # Print the Movie name that the user is going to watch as a confirmation?
+        # Tells the user to enjoy their movie as well :)
+        print(f"Opening {search_result} in your default browser. Enjoy your movie!")
+        
+        # Launch the URL built earlier in the user default browser
+        webbrowser.open_new_tab(vidsrc_api)
+
+    else:
+        sys.exit("Thank you for trying ImFlix")
 
 # If IndexError occurs, most likely is that the user did not provide any input
 except IndexError:
