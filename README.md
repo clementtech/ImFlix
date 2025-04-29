@@ -20,8 +20,13 @@ ImFlix is a Python program that enables users to search for and watch any movie 
 ### Error handling:
 ![image](https://raw.githubusercontent.com/clementtech/ImFlix/refs/heads/main/assets/error_handling.png)
 
-# How to use:
-
-## Prerequisites:
+# Prerequisites:
 1. [Python](https://www.python.org/downloads/)
 2. Internet Connection
+
+# How to use:
+1. Download the project onto your computer.
+    - You can download the project by using the [git](https://git-scm.com/downloads) command:
+    ```
+    git clone https://github.com/clementtech/ImFlix.git
+    ```
