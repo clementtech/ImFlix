@@ -4,28 +4,23 @@
 from imdb import Cinemagoer
 import webbrowser
 import sys
-
+import re
+from pprint import pprint
 
 # Call the Cinemagoer API
 movie = Cinemagoer()
 
 # Prompt the user for a movie name
 print("Please enter the movie name you want to search for:")
-search = str(input("Movie Name: "))
-
-
-
+search = input("Movie Name: ")
 
 # Search for the movie using the Cinemagoer API
-movie_search = movie.search_movie(search)
+
+id = (movie.search_movie(search))[0].movieID
 
 
 
-# Select the first result from the search
-movai = str(movie_search).split(", ")[0]
 
-# Extract the movie ID from the search result
-id = (movai.split("[<Movie id:")[1].split("[http]")[0])
 
 # Construct the URL for the streaming link
 # Streaming service is provided by vidsrc API
