@@ -12,7 +12,7 @@ ImFlix is a Python program that enables users to search for and watch any movie 
 ### Success message:
 ![image](https://raw.githubusercontent.com/clementtech/ImFlix/refs/heads/main/assets/success_message.png)
 
-    - A new tab will open in your default browser to play the movie.
+- A new tab will open in your default browser to play the movie.
 
 ## Road Map:
 - [ ] When Not in IMDB site, clicking on the extension will navigate to IMDB site to browse for Movie
