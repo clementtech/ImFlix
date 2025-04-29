@@ -20,3 +20,4 @@ ImFlix is a Python program that enables users to search for and watch any movie 
 ### Error handling:
 ![image](https://raw.githubusercontent.com/clementtech/ImFlix/refs/heads/main/assets/error_handling.png)
 
+# How to use:
