@@ -4,7 +4,7 @@ ImFlix is a Python program that enables users to search for and watch any movie 
 # Sneak Peak:
 
 ### Prompt the user for movie name:
-[image](https://raw.githubusercontent.com/clementtech/ImFlix/refs/heads/main/assets/prompt_movie_name.png)
+![image](https://raw.githubusercontent.com/clementtech/ImFlix/refs/heads/main/assets/prompt_movie_name.png)
 
 ## Road Map:
 - [ ] When Not in IMDB site, clicking on the extension will navigate to IMDB site to browse for Movie
