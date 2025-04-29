@@ -1,10 +1,8 @@
 # ImFlix
 ImFlix is a Python program that enables users to search for and watch any movie using the IMDb and VidSrc APIs.
 
-# Current Progress:
-- Allows you to watch movie by entering the movie name into the terminal.
-![image](https://github.com/user-attachments/assets/862e6648-0ed3-4416-9c76-28efd3553ebf)
-
+# Sneak Peak:
+-
 
 ## Road Map:
 - [ ] When Not in IMDB site, clicking on the extension will navigate to IMDB site to browse for Movie
