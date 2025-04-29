@@ -22,11 +22,15 @@ try:
     # Return the first result only
     search_result = movie.search_movie(search)[0]
 
+    # Print the movie that is going to play
     print(f"Playing: {search_result}")
     
+    # Ask user for confirmation if the movie is correct/to proceed
     confirm = str(input("Do you want to proceed? [Y/N] ")).capitalize()
 
+    # If the user chooses "Y" which means yes, continue the program
     if confirm == "Y":
+
         # Retrieve the movie id from iMDB
         movie_id = search_result.movieID
 
@@ -40,7 +44,11 @@ try:
         # Launch the URL built earlier in the user default browser
         webbrowser.open_new_tab(vidsrc_api)
 
+    # Else if the user does not select "Y", which means the user is not interested anymore,
+    # End the program
     else:
+
+        # Provide compliment to the user :D
         sys.exit("Thank you for trying ImFlix")
 
 # If IndexError occurs, most likely is that the user did not provide any input
