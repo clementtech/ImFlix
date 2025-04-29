@@ -5,6 +5,7 @@ from imdb import Cinemagoer
 import webbrowser
 import sys
 
+
 # Call the Cinemagoer API
 movie = Cinemagoer()
 
@@ -12,12 +13,13 @@ movie = Cinemagoer()
 print("Please enter the movie name you want to search for:")
 search = str(input("Movie Name: "))
 
-# If the user does not enter a movie name, exit the script
-if not search:
-    sys.exit("No movie name entered. Exiting.")
+
+
 
 # Search for the movie using the Cinemagoer API
 movie_search = movie.search_movie(search)
+
+
 
 # Select the first result from the search
 movai = str(movie_search).split(", ")[0]
