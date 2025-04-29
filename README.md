@@ -43,7 +43,7 @@ ImFlix is a Python program that enables users to search for and watch any movie 
     ```
 
 # Disclaimer:
-## - This project is for educational purposes ONLY!
-## - It is meant for practicing the use of APIs
-## - Please respect the copyright law
-## - Use at your own risk
+### - This project is for educational purposes ONLY!
+### - It is meant for practicing the use of APIs
+### - Please respect the copyright law
+### - Use at your own risk
