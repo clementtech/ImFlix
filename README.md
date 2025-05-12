@@ -23,6 +23,8 @@ ImFlix is a Python program that enables users to search for and watch any movie 
 # Prerequisites:
 1. [Python](https://www.python.org/downloads/)
 2. Internet Connection
+3. [Ublock Origin](https://ublockorigin.com/)
+- Ublock Origin recommended as feedback from friends that VidSrc might redirect to unknown sites.
 
 # How to use:
 1. Download the project onto your computer.
